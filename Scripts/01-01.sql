@@ -8,4 +8,4 @@ SELECT emp.firstName,
 FROM employee emp
 INNER JOIN employee mng
     ON emp.managerId = mng.employeeId
-
+    
